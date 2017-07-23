@@ -6039,4 +6039,32 @@ button {
 .val {
   margin-bottom: 45px; }
 
+/*******SECCION OCHO********/
+.eighth-section {
+  text-align: center; }
+  .eighth-section div {
+    background-color: white; }
+    .eighth-section div div div h3 {
+      font-size: 30px;
+      font-weight: 700;
+      font-family: "Lato", sans-serif;
+      color: #5B6572;
+      padding: 40px 0 20px; }
+    .eighth-section div div div p {
+      font-weight: 300;
+      color: #BFBFBF;
+      padding: 0 0 20px; }
+    .eighth-section div div div img {
+      width: 40%;
+      box-shadow: 0 2px 26px 6px #E2E2E2;
+      margin-bottom: 15px; }
+    .eighth-section div div div h4 {
+      font-weight: 700;
+      color: #5B6572; }
+    .eighth-section div div div h5 {
+      color: #8B8B8B; }
+
+.love-clients {
+  margin-bottom: 45px; }
+
 /*# sourceMappingURL=main.css.map */

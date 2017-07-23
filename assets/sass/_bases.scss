@@ -284,3 +284,40 @@ button{
 .val{
 	margin-bottom: 45px;
 }
+
+/*******SECCION OCHO********/
+.eighth-section{
+	text-align: center;
+	div{
+		background-color: $color-titulo-uno;
+		div{
+			div{
+				h3{
+					@include tituloSecciones();
+				}
+				p{
+					@include subtituloSecciones()
+				}
+			}
+		}
+		div{
+			div{
+				img{
+					width: 40%;
+					box-shadow: 0 2px 26px 6px $color-body;
+					margin-bottom: 15px;	
+				}
+				h4{
+					font-weight: $font-bold;
+					color: #5B6572;
+				}
+				h5{
+					color: #8B8B8B;
+				}
+			}
+		}
+	}
+}
+.love-clients{
+	margin-bottom: 45px;
+}
