@@ -347,7 +347,41 @@ button{
 	    }
 	}
 }
-.caja-subs{
-	padding: 15px !important;
-	background-color: $color-titulo-uno !important;
+
+/******SECCION DIEZ********/
+.tenth-section{
+	text-align: center;
+	div{
+		background-color: $color-titulo-uno;
+		div{
+			div{
+				h3{
+					@include tituloSecciones();
+				}
+				p{
+					@include subtituloSecciones()
+				}
+			}
+		}
+		div{
+			div{
+				img{
+					width: 100%;
+				}
+				h5{
+					text-align: left;
+					color: $color-botones;
+				}
+				h4{
+					text-align: left;
+					color: #3C4858;
+					font-weight: $font-bold;
+				}
+				a{
+					text-align: left;
+					color: #3C4858;
+				}
+			}
+		}
+	}
 }
