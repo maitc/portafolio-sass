@@ -1,0 +1,43 @@
+*{
+	font-family: $font-titulo-dos;
+}
+body{
+	background-color: $color-body;
+	overflow-x: hidden;
+}
+/******SECCION UNO*******/
+.first-section{
+	nav{
+		position: fixed;
+		z-index: 1000;
+		width: 100%;
+		background-color: transparent;
+		border: none;
+		div{
+			padding: 10px 70px;
+			div{
+				color: $color-titulo-uno;
+				button{
+					@include boton();
+				}
+			}
+		}
+	}
+}
+/*no me resultó con ruta como arriba snifff*/
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > li > a{
+	color: $color-titulo-uno;
+}
+.carousel-caption{
+	padding-bottom: 400px;
+	h2{
+		@include tituloCarrusel();
+	}
+	button{
+		@include boton();
+		margin-top: 15px;
+	}
+}
+
+
+

@@ -5801,5 +5801,47 @@ button.close {
 /*color icons header*/
 /*titulos*/
 /**FONTS**/
+/**ESTILOS**/
+* {
+  font-family: "Open Sans", sans-serif; }
+
+body {
+  background-color: #E2E2E2;
+  overflow-x: hidden; }
+
+/******SECCION UNO*******/
+.first-section nav {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background-color: transparent;
+  border: none; }
+  .first-section nav div {
+    padding: 10px 70px; }
+    .first-section nav div div {
+      color: white; }
+      .first-section nav div div button {
+        background-color: #E91E63;
+        color: white;
+        padding: 11px 25px;
+        border: none;
+        border-radius: 5px; }
+
+/*no me result├│ con ruta como arriba snifff*/
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > li > a {
+  color: white; }
+
+.carousel-caption {
+  padding-bottom: 400px; }
+  .carousel-caption h2 {
+    font-size: 70px;
+    font-weight: 700; }
+  .carousel-caption button {
+    background-color: #E91E63;
+    color: white;
+    padding: 11px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px; }
 
 /*# sourceMappingURL=main.css.map */

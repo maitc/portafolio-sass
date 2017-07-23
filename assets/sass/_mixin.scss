@@ -1,0 +1,11 @@
+@mixin boton(){
+	background-color:$color-botones;
+	color: white;
+	padding: 11px 25px;
+	border: $bordes-no;
+	border-radius: $radius-botones;
+}
+@mixin tituloCarrusel(){
+	font-size: 70px;
+	font-weight: 700;
+}
