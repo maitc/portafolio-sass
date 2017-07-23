@@ -6067,4 +6067,26 @@ button {
 .love-clients {
   margin-bottom: 45px; }
 
+/*****SECCION NUEVE*****/
+.ninth-section {
+  text-align: center; }
+  .ninth-section div {
+    background-image: url(../img/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 401px; }
+    .ninth-section div div div h3 {
+      font-size: 30px;
+      font-weight: 700;
+      font-family: "Lato", sans-serif;
+      color: white;
+      padding: 98px 0 20px; }
+    .ninth-section div div div p {
+      color: white; }
+
+.caja-subs {
+  padding: 15px !important;
+  background-color: white !important; }
+
 /*# sourceMappingURL=main.css.map */

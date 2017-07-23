@@ -321,3 +321,33 @@ button{
 .love-clients{
 	margin-bottom: 45px;
 }
+
+/*****SECCION NUEVE*****/
+.ninth-section{
+	text-align: center;
+	div{
+		background-image: url(../img/about.jpg);
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    height: 401px;
+	    div{
+	    	div{
+	    		h3{
+	    			font-size: 30px;
+					font-weight: $font-bold;
+					font-family: $font-titulo;
+					color: $color-titulo-uno;
+					padding: 98px 0 20px;
+	    		}
+	    		p{
+	    			color: $color-titulo-uno;
+	    		}
+	    	}
+	    }
+	}
+}
+.caja-subs{
+	padding: 15px !important;
+	background-color: $color-titulo-uno !important;
+}
