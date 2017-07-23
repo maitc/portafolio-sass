@@ -427,4 +427,59 @@ button{
 	padding: 15px !important; 
 	background-color: $color-botones !important;
 }
-	    	
+.margin-contact{
+	margin-bottom: 45px;
+}
+
+/*****FOOTER******/
+footer{
+	div{
+		background-color: $color-footer;
+		div{
+			div{
+				h4{
+					color: $color-titulo-uno;
+					padding: 35px 0 0;
+					font-weight: $font-bold;
+				}
+				p{
+					color: #848485;
+					display: inline-block;
+				}
+			}
+			div{
+				div{
+					div{
+						img{
+							width: 100%;
+							padding: 5px;
+						}
+					}
+				}
+			}
+		}
+		div{
+			hr{
+				border-top: 1px solid #848485;
+			}
+		}
+	}
+}
+.fa-re{
+	color: $color-titulo-uno;
+}
+.links-footer ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 2px;
+}
+.links-footer ul li a{
+	text-decoration: none;
+	color: $color-titulo-uno;
+}
+.links-footer ul li a:hover{
+	color: $color-botones;
+}
+.link-footer{
+	color: $color-titulo-uno;
+}

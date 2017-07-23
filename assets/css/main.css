@@ -6143,4 +6143,41 @@ button {
   padding: 15px !important;
   background-color: #E91E63 !important; }
 
+.margin-contact {
+  margin-bottom: 45px; }
+
+/*****FOOTER******/
+footer div {
+  background-color: #323437; }
+  footer div div div h4 {
+    color: white;
+    padding: 35px 0 0;
+    font-weight: 700; }
+  footer div div div p {
+    color: #848485;
+    display: inline-block; }
+  footer div div div div div img {
+    width: 100%;
+    padding: 5px; }
+  footer div div hr {
+    border-top: 1px solid #848485; }
+
+.fa-re {
+  color: white; }
+
+.links-footer ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 2px; }
+
+.links-footer ul li a {
+  text-decoration: none;
+  color: white; }
+
+.links-footer ul li a:hover {
+  color: #E91E63; }
+
+.link-footer {
+  color: white; }
+
 /*# sourceMappingURL=main.css.map */
