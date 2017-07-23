@@ -380,8 +380,51 @@ button{
 				a{
 					text-align: left;
 					color: #3C4858;
+					padding-bottom: 45px;
 				}
 			}
 		}
 	}
 }
+
+/*****SECCION ONCE******/
+.eleventh-section{
+	div{
+		background-image: url(../img/img_city.jpg);
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    position: relative;
+	    z-index: 1;
+	    div{
+	    	div{
+	    		h3{
+	    			color: $color-titulo-uno;
+	    			font-weight: $font-bold;
+	    			font-size: 36px;
+	    			font-family: $font-titulo;
+	    			margin-top: 75px;
+	    		}
+	    		p{
+	    			color: $color-titulo-uno;
+	    		}
+	    		div{
+	    			div{
+	    				color: $color-titulo-uno;
+	    			}
+	    		}
+	    	}
+	    }
+	}
+}
+.caja-contacto{
+	background-color: $color-titulo-uno !important;
+	position: relative;
+	z-index: 2;
+}
+.contacto{
+	padding: 15px !important; 
+	background-color: $color-botones !important;
+}
+	    	

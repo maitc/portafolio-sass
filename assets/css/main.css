@@ -6111,6 +6111,36 @@ button {
       font-weight: 700; }
     .tenth-section div div div a {
       text-align: left;
-      color: #3C4858; }
+      color: #3C4858;
+      padding-bottom: 45px; }
+
+/*****SECCION ONCE******/
+.eleventh-section div {
+  background-image: url(../img/img_city.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1; }
+  .eleventh-section div div div h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Lato", sans-serif;
+    margin-top: 75px; }
+  .eleventh-section div div div p {
+    color: white; }
+  .eleventh-section div div div div div {
+    color: white; }
+
+.caja-contacto {
+  background-color: white !important;
+  position: relative;
+  z-index: 2; }
+
+.contacto {
+  padding: 15px !important;
+  background-color: #E91E63 !important; }
 
 /*# sourceMappingURL=main.css.map */
