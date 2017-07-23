@@ -5911,6 +5911,7 @@ body {
       font-weight: 700;
       font-family: "Lato", sans-serif;
       color: #5B6572;
+      padding: 40px 0 20px;
       padding: 40px 0 20px; }
     .fifth-section div div div h3 {
       font-weight: 300;
@@ -5922,5 +5923,57 @@ body {
   font-weight: 700;
   font-family: "Lato", sans-serif;
   color: #5B6572; }
+
+/******SECCION SEIS********/
+.sixth-section {
+  text-align: center; }
+  .sixth-section div {
+    background-color: white; }
+    .sixth-section div div div div {
+      text-align: left; }
+      .sixth-section div div div div div h4 {
+        font-size: 15px;
+        font-weight: 700;
+        font-family: "Lato", sans-serif;
+        color: #5B6572; }
+      .sixth-section div div div div div h6 {
+        color: #7F7F7F;
+        font-weight: 700; }
+      .sixth-section div div div div div p {
+        color: #C5C5C5; }
+    .sixth-section div div div img {
+      width: 100%;
+      margin: 1px 0 15px; }
+    .sixth-section div div h3 {
+      font-size: 30px;
+      font-weight: 700;
+      font-family: "Lato", sans-serif;
+      color: #5B6572;
+      padding: 40px 0 20px; }
+    .sixth-section div div h5 {
+      font-weight: 300;
+      color: #BFBFBF;
+      padding: 0 0 20px; }
+
+.fa-facebook {
+  color: #4A66A0; }
+
+.fa-google-plus {
+  color: #E16050; }
+
+.fa-twitter {
+  color: #55ACEE; }
+
+.fa-linkedin {
+  color: #177EB8; }
+
+.fa-pinterest {
+  color: #D1383E; }
+
+.fa-dribbble {
+  color: #EE71A2; }
+
+.ajuste {
+  padding: 0 0 25px; }
 
 /*# sourceMappingURL=main.css.map */

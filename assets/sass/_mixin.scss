@@ -20,4 +20,10 @@
 	font-weight: $font-bold;
 	font-family: $font-titulo;
 	color: $color-titulo-dos;
+	padding: 40px 0 20px;
+}
+@mixin subtituloSecciones(){
+	font-weight: $font-light;
+	color: $color-subtitulo;
+	padding: 0 0 20px;
 }
