@@ -76,7 +76,7 @@ body{
 	color: $color-bars;
 }
 
-/**SECCION CUATRO**/
+/**********SECCION CUATRO***********/
 .fourth-section{
     div{
 		background-image: url(../img/img_city.jpg);
@@ -113,4 +113,45 @@ body{
 	    	}
 	    }
     }
+}
+
+/********SECCION CINCO**********/
+.fifth-section{
+	text-align: center;
+	div{
+		background-color: $color-secciones;
+		div{
+			div{
+				div{
+					div{
+						p{
+							padding: 0 0 45px;
+						}
+					}
+				}
+				h5{
+					color: $color-botones;
+				}
+				img{
+					width: 100%;
+				}
+			}
+		}
+		div{
+			div{
+				h2{
+					@include tituloSecciones();
+					padding: 40px 0 20px;
+				}
+				h3{
+					font-weight: $font-light;
+					color: $color-subtitulo;
+					padding: 0 0 20px;
+				}
+			}
+		}
+	}
+}
+.sub-ti{
+	@include tituloThirdSection();
 }
