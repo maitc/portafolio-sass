@@ -5,6 +5,9 @@ body{
 	background-color: $color-body;
 	overflow-x: hidden;
 }
+ul{
+	padding: 0px;
+}
 /******SECCION UNO*******/
 .first-section{
 	nav{
@@ -216,4 +219,68 @@ body{
 }
 .ajuste{
 	padding: 0 0 25px;
+}
+
+/*******SECCION SIETE********/
+.seventh-section{
+	div{
+		background-color: $color-secciones;
+			div{
+				div{
+					h2{
+						@include tituloSecciones();
+						margin-top: 43px;
+					}
+					p{
+						color: $color-relleno;
+					}
+				}
+				div{
+					div{
+						div{
+							text-align: center;
+							margin-top: 45px;
+							h4{
+								@include tituloValores(){
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.valores-caja{
+	background-color: $color-titulo-uno !important; /*no lo podía cambiar sin el important*/
+	box-shadow: 0 16px 13px 15px $color-body; 
+	border-radius: $radius-botones;
+}
+.p-valor{
+	color: #777777 !important; 
+}
+.signo-valor{
+	font-size: 29px;
+	color: #777777;
+}
+.valor{
+	font-size: 50px;
+	font-weight: $font-bold;
+	color: #3C4858;
+}
+.val ul li{
+	list-style: none;
+	color: $color-relleno;
+}
+.val ul li span{
+	color: #3C4858;
+	font-weight: $font-bold;
+}
+button{
+	@include boton();
+}
+.bu-val{
+	margin-bottom: 15px;
+}
+.val{
+	margin-bottom: 45px;
 }

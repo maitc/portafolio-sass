@@ -5810,6 +5810,9 @@ body {
   background-color: #E2E2E2;
   overflow-x: hidden; }
 
+ul {
+  padding: 0px; }
+
 /******SECCION UNO*******/
 .first-section nav {
   position: fixed;
@@ -5975,5 +5978,65 @@ body {
 
 .ajuste {
   padding: 0 0 25px; }
+
+/*******SECCION SIETE********/
+.seventh-section div {
+  background-color: #F0F0F0; }
+  .seventh-section div div div h2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #5B6572;
+    padding: 40px 0 20px;
+    margin-top: 43px; }
+  .seventh-section div div div p {
+    color: #C5C5C5; }
+  .seventh-section div div div div div {
+    text-align: center;
+    margin-top: 45px; }
+    .seventh-section div div div div div h4 {
+      font-size: 13px;
+      font-weight: 700;
+      font-family: "Lato", sans-serif;
+      color: #C5C5C5; }
+
+.valores-caja {
+  background-color: white !important;
+  /*no lo pod├¡a cambiar sin el important*/
+  box-shadow: 0 16px 13px 15px #E2E2E2;
+  border-radius: 5px; }
+
+.p-valor {
+  color: #777777 !important; }
+
+.signo-valor {
+  font-size: 29px;
+  color: #777777; }
+
+.valor {
+  font-size: 50px;
+  font-weight: 700;
+  color: #3C4858; }
+
+.val ul li {
+  list-style: none;
+  color: #C5C5C5; }
+
+.val ul li span {
+  color: #3C4858;
+  font-weight: 700; }
+
+button {
+  background-color: #E91E63;
+  color: white;
+  padding: 11px 25px;
+  border: none;
+  border-radius: 5px; }
+
+.bu-val {
+  margin-bottom: 15px; }
+
+.val {
+  margin-bottom: 45px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -27,3 +27,9 @@
 	color: $color-subtitulo;
 	padding: 0 0 20px;
 }
+@mixin tituloValores(){
+	font-size: 13px;
+	font-weight: $font-bold;
+	font-family: $font-titulo;
+	color: $color-relleno;
+}
