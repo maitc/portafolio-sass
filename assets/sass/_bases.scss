@@ -14,7 +14,7 @@ body{
 		background-color: transparent;
 		border: none;
 		div{
-			padding: 10px 70px;
+			padding: 15px 15px;
 			div{
 				color: $color-titulo-uno;
 				button{
@@ -39,5 +39,43 @@ body{
 	}
 }
 
-
-
+/*******SECCION TRES********/
+.third-section{
+	div{
+		background-color: $color-titulo-uno;
+		border-radius: $radius-botones;
+		text-align: $centrar;
+		position: relative;
+    	top: -35px;
+    	div{
+    		div{
+    			h3{
+    				@include tituloThirdSection();
+    			}
+    			p{
+    				color: $color-relleno;
+					font-weight: $font-light;
+					padding: 10px 0 80px 0;
+    			}
+    		}
+    		div{
+    			position: relative;
+    			top: 15px;
+    			h4{
+    				padding: 40px 80px 80px;
+    				font-weight: $font-light;
+    				color: $color-relleno;
+    			}
+    		}
+    	}
+	}
+}
+.fa-th{
+	color: $color-botones;
+}
+.fa-th-list{
+	color: $color-th;
+}
+.fa-bars{
+	color: $color-bars;
+}
