@@ -45,8 +45,6 @@ body{
 		background-color: $color-titulo-uno;
 		border-radius: $radius-botones;
 		text-align: $centrar;
-		position: relative;
-    	top: -35px;
     	div{
     		div{
     			h3{
@@ -59,8 +57,6 @@ body{
     			}
     		}
     		div{
-    			position: relative;
-    			top: 15px;
     			h4{
     				padding: 40px 80px 80px;
     				font-weight: $font-light;
@@ -78,4 +74,43 @@ body{
 }
 .fa-bars{
 	color: $color-bars;
+}
+
+/**SECCION CUATRO**/
+.fourth-section{
+    div{
+		background-image: url(../img/img_city.jpg);
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    div{
+	    	div{
+	    		iframe{
+	    			margin: 15px 0;
+	    		}
+	    	}
+	    }
+	    div{
+	    	div{
+	    		img{
+	    			width: 100%;
+	    			margin-top: 75px;
+	    		}
+	    	}
+	    	div{
+	    		h3{
+	    			color: $color-titulo-uno;
+	    			font-weight: $font-bold;
+	    			font-size: 36px;
+	    			font-family: $font-titulo;
+	    			margin-top: 75px;
+	    		}
+	    		p{
+	    			color: $color-titulo-uno;
+	    			padding-top: 15px;
+	    		}
+	    	}
+	    }
+    }
 }

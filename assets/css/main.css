@@ -5849,9 +5849,7 @@ body {
 .third-section div {
   background-color: white;
   border-radius: 5px;
-  text-align: center;
-  position: relative;
-  top: -35px; }
+  text-align: center; }
   .third-section div div div h3 {
     font-size: 15px;
     font-weight: 700;
@@ -5861,13 +5859,10 @@ body {
     color: #C5C5C5;
     font-weight: 300;
     padding: 10px 0 80px 0; }
-  .third-section div div div {
-    position: relative;
-    top: 15px; }
-    .third-section div div div h4 {
-      padding: 40px 80px 80px;
-      font-weight: 300;
-      color: #C5C5C5; }
+  .third-section div div div h4 {
+    padding: 40px 80px 80px;
+    font-weight: 300;
+    color: #C5C5C5; }
 
 .fa-th {
   color: #E91E63; }
@@ -5877,5 +5872,27 @@ body {
 
 .fa-bars {
   color: #4CAF50; }
+
+/**SECCION CUATRO**/
+.fourth-section div {
+  background-image: url(../img/img_city.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .fourth-section div div div iframe {
+    margin: 15px 0; }
+  .fourth-section div div div img {
+    width: 100%;
+    margin-top: 75px; }
+  .fourth-section div div div h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Lato", sans-serif;
+    margin-top: 75px; }
+  .fourth-section div div div p {
+    color: white;
+    padding-top: 15px; }
 
 /*# sourceMappingURL=main.css.map */
