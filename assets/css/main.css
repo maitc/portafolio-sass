@@ -5835,8 +5835,12 @@ ul {
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > li > a {
   color: white; }
 
+.carousel-uno {
+  width: 100%;
+  height: 90vh; }
+
 .carousel-caption {
-  padding-bottom: 400px; }
+  padding-bottom: 213px; }
   .carousel-caption h2 {
     font-size: 70px;
     font-weight: 700; }
@@ -5849,20 +5853,21 @@ ul {
     margin-top: 15px; }
 
 /*******SECCION TRES********/
-.third-section div {
+.third-section {
   background-color: white;
   border-radius: 5px;
-  text-align: center; }
-  .third-section div div div h3 {
+  text-align: center;
+  width: 90%; }
+  .third-section div div h3 {
     font-size: 15px;
     font-weight: 700;
     font-family: "Lato", sans-serif;
     color: #5B6572; }
-  .third-section div div div p {
+  .third-section div div p {
     color: #C5C5C5;
     font-weight: 300;
     padding: 10px 0 80px 0; }
-  .third-section div div div h4 {
+  .third-section div div h4 {
     padding: 40px 80px 80px;
     font-weight: 300;
     color: #C5C5C5; }
@@ -5877,49 +5882,50 @@ ul {
   color: #4CAF50; }
 
 /**********SECCION CUATRO***********/
-.fourth-section div {
+.fourth-section {
   background-image: url(../img/img_city.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
-  .fourth-section div div div iframe {
+  background-size: cover;
+  width: 90%; }
+  .fourth-section div div iframe {
     margin: 15px 0; }
-  .fourth-section div div div img {
+  .fourth-section div div img {
     width: 100%;
     margin-top: 75px; }
-  .fourth-section div div div h3 {
+  .fourth-section div div h3 {
     color: white;
     font-weight: 700;
     font-size: 36px;
     font-family: "Lato", sans-serif;
     margin-top: 75px; }
-  .fourth-section div div div p {
+  .fourth-section div div p {
     color: white;
     padding-top: 15px; }
 
 /********SECCION CINCO**********/
 .fifth-section {
-  text-align: center; }
-  .fifth-section div {
-    background-color: #F0F0F0; }
-    .fifth-section div div div div div p {
-      padding: 0 0 45px; }
-    .fifth-section div div div h5 {
-      color: #E91E63; }
-    .fifth-section div div div img {
-      width: 100%; }
-    .fifth-section div div div h2 {
-      font-size: 30px;
-      font-weight: 700;
-      font-family: "Lato", sans-serif;
-      color: #5B6572;
-      padding: 40px 0 20px;
-      padding: 40px 0 20px; }
-    .fifth-section div div div h3 {
-      font-weight: 300;
-      color: #BFBFBF;
-      padding: 0 0 20px; }
+  text-align: center;
+  background-color: #F0F0F0;
+  width: 90%; }
+  .fifth-section div div div div p {
+    padding: 0 0 45px; }
+  .fifth-section div div h5 {
+    color: #E91E63; }
+  .fifth-section div div img {
+    width: 100%; }
+  .fifth-section div div h2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #5B6572;
+    padding: 40px 0 20px;
+    padding: 40px 0 20px; }
+  .fifth-section div div h3 {
+    font-weight: 300;
+    color: #BFBFBF;
+    padding: 0 0 20px; }
 
 .sub-ti {
   font-size: 15px;
@@ -5929,24 +5935,27 @@ ul {
 
 /******SECCION SEIS********/
 .sixth-section {
-  text-align: center; }
-  .sixth-section div {
-    background-color: white; }
-    .sixth-section div div div div {
-      text-align: left; }
-      .sixth-section div div div div div h4 {
-        font-size: 15px;
-        font-weight: 700;
-        font-family: "Lato", sans-serif;
-        color: #5B6572; }
-      .sixth-section div div div div div h6 {
-        color: #7F7F7F;
-        font-weight: 700; }
-      .sixth-section div div div div div p {
-        color: #C5C5C5; }
-    .sixth-section div div div img {
-      width: 100%;
-      margin: 1px 0 15px; }
+  text-align: center;
+  background-color: white;
+  width: 90%; }
+  .sixth-section div div div {
+    text-align: left; }
+    .sixth-section div div div h4 {
+      font-size: 15px;
+      font-weight: 700;
+      font-family: "Lato", sans-serif;
+      color: #5B6572; }
+    .sixth-section div div div h6 {
+      color: #7F7F7F;
+      font-weight: 700; }
+    .sixth-section div div div p {
+      color: #C5C5C5; }
+  .sixth-section div div img {
+    width: 100%;
+    margin: 1px 0 15px;
+    border-radius: 5px; }
+  .sixth-section div div {
+    text-align: center; }
     .sixth-section div div h3 {
       font-size: 30px;
       font-weight: 700;
@@ -5980,21 +5989,22 @@ ul {
   padding: 0 0 25px; }
 
 /*******SECCION SIETE********/
-.seventh-section div {
-  background-color: #F0F0F0; }
-  .seventh-section div div div h2 {
+.seventh-section {
+  background-color: #F0F0F0;
+  width: 90%; }
+  .seventh-section div div h2 {
     font-size: 30px;
     font-weight: 700;
     font-family: "Lato", sans-serif;
     color: #5B6572;
     padding: 40px 0 20px;
     margin-top: 43px; }
-  .seventh-section div div div p {
+  .seventh-section div div p {
     color: #C5C5C5; }
-  .seventh-section div div div div div {
+  .seventh-section div div div div {
     text-align: center;
     margin-top: 45px; }
-    .seventh-section div div div div div h4 {
+    .seventh-section div div div div h4 {
       font-size: 13px;
       font-weight: 700;
       font-family: "Lato", sans-serif;
@@ -6041,125 +6051,125 @@ button {
 
 /*******SECCION OCHO********/
 .eighth-section {
-  text-align: center; }
-  .eighth-section div {
-    background-color: white; }
-    .eighth-section div div div h3 {
-      font-size: 30px;
-      font-weight: 700;
-      font-family: "Lato", sans-serif;
-      color: #5B6572;
-      padding: 40px 0 20px; }
-    .eighth-section div div div p {
-      font-weight: 300;
-      color: #BFBFBF;
-      padding: 0 0 20px; }
-    .eighth-section div div div img {
-      width: 40%;
-      box-shadow: 0 2px 26px 6px #E2E2E2;
-      margin-bottom: 15px; }
-    .eighth-section div div div h4 {
-      font-weight: 700;
-      color: #5B6572; }
-    .eighth-section div div div h5 {
-      color: #8B8B8B; }
+  text-align: center;
+  background-color: white;
+  width: 90%; }
+  .eighth-section div div h3 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #5B6572;
+    padding: 40px 0 20px; }
+  .eighth-section div div p {
+    font-weight: 300;
+    color: #BFBFBF;
+    padding: 0 0 20px; }
+  .eighth-section div div img {
+    width: 40%;
+    box-shadow: 0 2px 26px 6px #E2E2E2;
+    margin-bottom: 15px; }
+  .eighth-section div div h4 {
+    font-weight: 700;
+    color: #5B6572; }
+  .eighth-section div div h5 {
+    color: #8B8B8B; }
 
 .love-clients {
   margin-bottom: 45px; }
 
 /*****SECCION NUEVE*****/
 .ninth-section {
-  text-align: center; }
-  .ninth-section div {
-    background-image: url(../img/about.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 401px; }
-    .ninth-section div div div h3 {
-      font-size: 30px;
-      font-weight: 700;
-      font-family: "Lato", sans-serif;
-      color: white;
-      padding: 98px 0 20px; }
-    .ninth-section div div div p {
-      color: white; }
+  text-align: center;
+  background-image: url(../img/about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 401px;
+  width: 90%; }
+  .ninth-section div div h3 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: white;
+    padding: 98px 0 20px; }
+  .ninth-section div div p {
+    color: white; }
 
 /******SECCION DIEZ********/
 .tenth-section {
-  text-align: center; }
-  .tenth-section div {
-    background-color: white; }
-    .tenth-section div div div h3 {
-      font-size: 30px;
-      font-weight: 700;
-      font-family: "Lato", sans-serif;
-      color: #5B6572;
-      padding: 40px 0 20px; }
-    .tenth-section div div div p {
-      font-weight: 300;
-      color: #BFBFBF;
-      padding: 0 0 20px; }
-    .tenth-section div div div img {
-      width: 100%; }
-    .tenth-section div div div h5 {
-      text-align: left;
-      color: #E91E63; }
-    .tenth-section div div div h4 {
-      text-align: left;
-      color: #3C4858;
-      font-weight: 700; }
-    .tenth-section div div div a {
-      text-align: left;
-      color: #3C4858;
-      padding-bottom: 45px; }
+  text-align: center;
+  background-color: white;
+  width: 90%; }
+  .tenth-section div div h3 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #5B6572;
+    padding: 40px 0 20px; }
+  .tenth-section div div p {
+    font-weight: 300;
+    color: #BFBFBF;
+    padding: 0 0 20px; }
+  .tenth-section div div img {
+    width: 100%; }
+  .tenth-section div div h5 {
+    text-align: left;
+    color: #E91E63; }
+  .tenth-section div div h4 {
+    text-align: left;
+    color: #3C4858;
+    font-weight: 700; }
+  .tenth-section div div a {
+    text-align: left;
+    color: #3C4858;
+    padding-bottom: 45px; }
 
 /*****SECCION ONCE******/
-.eleventh-section div {
+.eleventh-section {
   background-image: url(../img/img_city.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 90%;
   position: relative;
   z-index: 1; }
-  .eleventh-section div div div h3 {
+  .eleventh-section div div h3 {
     color: white;
     font-weight: 700;
     font-size: 36px;
     font-family: "Lato", sans-serif;
     margin-top: 75px; }
-  .eleventh-section div div div p {
+  .eleventh-section div div p {
     color: white; }
-  .eleventh-section div div div div div {
+  .eleventh-section div div div div {
     color: white; }
 
 .caja-contacto {
-  background-color: white !important;
-  position: relative;
-  z-index: 2; }
+  background-color: white; }
 
 .contacto {
-  padding: 15px !important;
-  background-color: #E91E63 !important; }
+  padding: 15px;
+  background-color: #E91E63; }
 
 .margin-contact {
   margin-bottom: 45px; }
 
 /*****FOOTER******/
-footer div {
-  background-color: #323437; }
-  footer div div div h4 {
+.twelve-section {
+  background-color: #323437;
+  width: 90%; }
+  .twelve-section div div h4 {
     color: white;
     padding: 35px 0 0;
     font-weight: 700; }
-  footer div div div p {
+  .twelve-section div div p {
     color: #848485;
     display: inline-block; }
-  footer div div div div div img {
+  .twelve-section div div div div img {
     width: 100%;
     padding: 5px; }
-  footer div div hr {
+  .twelve-section div hr {
     border-top: 1px solid #848485; }
 
 .fa-re {
@@ -6178,6 +6188,48 @@ footer div {
   color: #E91E63; }
 
 .link-footer {
-  color: white; }
+  color: white !important; }
+
+/**EFECTOS**/
+.sixth-section .img-overlay {
+  position: relative; }
+.sixth-section img {
+  position: relative;
+  z-index: 1; }
+.sixth-section .text-overlay {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  z-index: -1;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+.sixth-section .img-overlay:hover img {
+  filter: brightness(50%); }
+.sixth-section .img-overlay:hover .text-overlay {
+  z-index: 9; }
+
+.text-overlay span {
+  padding: 3px;
+  background-color: #55ACEE;
+  border-radius: 5px; }
+
+.img-osc {
+  position: relative;
+  z-index: 1; }
+
+.img-oscur {
+  position: relative;
+  z-index: 999; }
+
+.oscuro-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 401px;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2; }
 
 /*# sourceMappingURL=main.css.map */
